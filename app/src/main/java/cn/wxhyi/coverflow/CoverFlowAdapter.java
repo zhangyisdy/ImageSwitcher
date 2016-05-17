@@ -57,7 +57,6 @@ public class CoverFlowAdapter extends RecyclerView.Adapter<CoverFlowAdapter.View
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.card_layout.setVisibility(View.VISIBLE);
-        Log.d("zhangyi" , "show the position is:"+position + "url is:"+list.get(position));
         showPic(holder.card_image,"file://"+list.get(position));
 
         if (position < border_position || position > getItemCount() - border_position - 1){
