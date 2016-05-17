@@ -33,7 +33,7 @@ import java.util.Map;
  */
 public class MainActivity extends Activity implements CoverFlowView.CoverFlowItemListener{
 
-    private static final String TAG = "zhangyi";
+    private static final String TAG = "MainActivity";
 
     private CoverFlowView coverFlowView;
     private CoverFlowAdapter coverFlowAdapter;
